@@ -1,7 +1,11 @@
+mod collections;
 mod data_types;
 mod hello_rust;
 mod functions_controlflow;
 mod ownership_borrowing;
+mod structs_methods;
+mod enums_pattern;
+mod error_handling;
 fn main() {
     
     // let result = sum_to(5);
@@ -21,9 +25,9 @@ fn main() {
 
     // let result = functions_controlflow::fizbuzz(9);
 
-    // let mut vector = vec![1,2,3,4];
+    // let vector = vec![1,2,3,4];
 
-    // let result = double_all(&mut vector);
+    // let result = sum_vec(&vector);
 
     // println!("{:?}",result);
 }

@@ -17,7 +17,7 @@ pub fn double_all (nums : &mut Vec<i32>) -> &Vec<i32>{
         *n *= 2;
     }
 
-    return nums;
+    return nums; 
 
 }
 
