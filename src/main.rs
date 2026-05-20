@@ -1,4 +1,3 @@
-
 mod collections;
 mod data_types;
 mod hello_rust;
@@ -9,6 +8,8 @@ mod enums_pattern;
 mod error_handling;
 mod generics_traits;
 mod lifetimes;
+mod closures_iterators;
+mod captstones;
 fn main() {
     
     // let result = sum_to(5);
@@ -34,5 +35,4 @@ fn main() {
 
     // println!("{:?}",result);
 }
-
 
