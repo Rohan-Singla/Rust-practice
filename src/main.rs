@@ -1,3 +1,4 @@
+
 mod collections;
 mod data_types;
 mod hello_rust;
@@ -6,6 +7,7 @@ mod ownership_borrowing;
 mod structs_methods;
 mod enums_pattern;
 mod error_handling;
+mod generics_traits;
 fn main() {
     
     // let result = sum_to(5);
