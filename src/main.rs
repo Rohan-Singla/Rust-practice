@@ -8,6 +8,7 @@ mod structs_methods;
 mod enums_pattern;
 mod error_handling;
 mod generics_traits;
+mod lifetimes;
 fn main() {
     
     // let result = sum_to(5);
@@ -33,3 +34,5 @@ fn main() {
 
     // println!("{:?}",result);
 }
+
+
