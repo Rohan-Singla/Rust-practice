@@ -1,15 +1,8 @@
-mod collections;
-mod data_types;
-mod hello_rust;
-mod functions_controlflow;
-mod ownership_borrowing;
-mod structs_methods;
-mod enums_pattern;
-mod error_handling;
-mod generics_traits;
-mod lifetimes;
-mod closures_iterators;
-mod captstones;
+mod week_1;
+
+
+mod week_2;
+
 fn main() {
     
     // let result = sum_to(5);
@@ -25,7 +18,9 @@ fn main() {
 
     // let result = abs_value(-5);
 
-    // let result = factorial(5);
+    // let result = week_1::functions_controlflow::factorial(5);
+
+    // println!("{}",result);
 
     // let result = functions_controlflow::fizbuzz(9);
 
@@ -34,5 +29,27 @@ fn main() {
     // let result = sum_vec(&vector);
 
     // println!("{:?}",result);
+
+
+
+
+    // let mylist = List::Cons(1, Box::new(
+    //     List::Cons(2, Box::new(
+    //         List::Cons(3, Box::new(
+    //             List::Cons(4, Box::new(
+    //                 List::Cons(5, Box::new(List::Nil))
+    //             ))
+    //         ))
+    //     ))
+    // ));
+    // let result = list_sum(&mylist);
+    // println!("{}", result);
+
+
+    // let result = count_owners(5);
+
+    // println!("{}",result);
+
 }
+
 
